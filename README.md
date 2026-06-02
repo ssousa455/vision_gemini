@@ -90,13 +90,13 @@ Pick **one** of the three installation paths below.
 **Windows (PowerShell 7+):**
 
 ```powershell
-iwr -useb https://raw.githubusercontent.com/YOUR_USER/vison_gemini/main/scripts/install.ps1 | iex
+iwr -useb https://raw.githubusercontent.com/ssousa455/vison_gemini/main/scripts/install.ps1 | iex
 ```
 
 **macOS / Linux (bash):**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USER/vison_gemini/main/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/ssousa455/vison_gemini/main/scripts/install.sh | bash
 ```
 
 The script will:
@@ -110,7 +110,7 @@ The script will:
 #### Option B — Manual install (3 commands)
 
 ```bash
-git clone https://github.com/YOUR_USER/vison_gemini.git \
+git clone https://github.com/ssousa455/vison_gemini.git \
   ~/.config/opencode/plugins/vision-gemini
 
 # Add to ~/.config/opencode/opencode.jsonc → "plugin": [...]
@@ -263,7 +263,7 @@ Make sure you're running Node 20+ and that `~/.config/opencode/node_modules/@ope
 ## Development
 
 ```bash
-git clone https://github.com/YOUR_USER/vison_gemini.git
+git clone https://github.com/ssousa455/vison_gemini.git
 cd vison_gemini
 npm test
 ```
