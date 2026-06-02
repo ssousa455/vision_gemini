@@ -27,10 +27,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_USER/opencode-vision-gemini.git"
+    "url": "https://github.com/ssousa455/vision_gemini.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_USER/opencode-vision-gemini/issues"
+    "url": "https://github.com/ssousa455/vision_gemini/issues"
   },
-  "homepage": "https://github.com/YOUR_USER/opencode-vision-gemini#readme"
+  "homepage": "https://github.com/ssousa455/vision_gemini#readme"
 }

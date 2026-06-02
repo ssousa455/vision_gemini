@@ -123,16 +123,6 @@ echo 'GOOGLE_API_KEY=AIza_your_key_here' >> ~/.config/opencode/.env
 
 See [`examples/opencode.jsonc.snippet`](examples/opencode.jsonc.snippet) and [`examples/.env.snippet`](examples/.env.snippet) for the exact lines to add.
 
-#### Option C — NPM install (no git, no clone)
-
-Once published to npm:
-
-```bash
-npm install -g opencode-vision-gemini
-```
-
-Then add `"opencode-vision-gemini"` to the `plugin` array in `opencode.jsonc`.
-
 ### Step 3 — Verify
 
 ```bash
